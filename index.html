@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Catedra Nacional de Sostenibilidad y cambio climatico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Tu archivo de estilos personalizado -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">Catedra Nacional de Sostenibilidad y cambio climatico</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="input-field col s12">
+                    <select id="dropdown-opcion">
+                        <option value="matriculados">Matriculados</option>
+                        <option value="ausentes">Ausentes</option>
+                        <option value="asistencia_por_sesion">Asistencia por sesión</option>
+                        <!-- Agrega opciones para otros archivos CSV si es necesario -->
+                    </select>
+                    <label>Elija una opción:</label>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div id="graficos-sesiones-container" class="col s12"></div>
+            </div>
+            
+            <div class="row">
+                <div id="graficos-ausentes-container" class="col s12"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script> <!-- Tu archivo de scripts personalizado -->
+</body>
+</html>
+

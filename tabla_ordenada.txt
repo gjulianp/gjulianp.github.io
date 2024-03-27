@@ -1,0 +1,6 @@
+Numero de Sesion	Numero de Estudiantes
+sesion 2.csv	273
+sesion 3.csv	342
+sesion 4.csv	357
+sesion 5.csv	359
+sesion 6.csv	340

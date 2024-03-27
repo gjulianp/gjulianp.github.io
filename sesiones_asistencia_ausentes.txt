@@ -1,0 +1,6 @@
+sesion	asistencia	ausentes
+2	273	122
+3	342	53
+4	357	38
+5	359	36
+6	340	55

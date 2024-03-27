@@ -1,0 +1,18 @@
+/* Estilo para el cuerpo de la página */
+body {
+  background-color: beige; /* Establece el color de fondo en negro */
+  color: black; /* Establece el color del texto en blanco para que sea legible sobre el fondo negro */
+}
+
+/* Estilo para el menú desplegable */
+.dropdown-style {
+  width: 200px; /* Ajusta el ancho según sea necesario */
+  margin-bottom: 20px; /* Espacio entre el menú desplegable y los gráficos */
+}
+
+/* Estilo para el contenedor de gráficos */
+.container-style {
+  margin-top: 20px; /* Espacio entre el menú desplegable y los gráficos */
+}
+
+  
